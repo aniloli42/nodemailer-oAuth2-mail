@@ -8,3 +8,4 @@ package-lock.json
 # testing files
 index.html
 server.js
+sendOTP.js
