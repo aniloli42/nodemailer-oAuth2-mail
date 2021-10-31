@@ -1,0 +1,10 @@
+# Development Packages
+node_modules
+package-lock.json
+
+# Environment Files
+.env
+
+# testing files
+index.html
+server.js
