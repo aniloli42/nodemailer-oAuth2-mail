@@ -10,7 +10,6 @@ async function sendMail({ from, to, subject, text, html }) {
         clientId: process.env.CLIENT_ID,
         clientSecret: process.env.CLIENT_SECRET,
         refreshToken: process.env.REFRESH_TOKEN,
-        accessToken: accessContainer[0].accessToken,
       },
     })
 
