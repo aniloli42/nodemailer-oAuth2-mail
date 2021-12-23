@@ -1,11 +1,13 @@
-# Mailer Script
+# Nodemailer with Oauth2
 
-This is the script where we can send the mail by using this codes.
+This script help to send the mail through gmail.
 
 ---
 
 ## Setup
-#### Setup Environment Variables:
+
+### Setup Environment Variables:
+
 ```
 CLIENT_ID
 CLIENT_SECRET
@@ -19,20 +21,18 @@ USER_EMAIL
 - REFRESH_TOKEN = Can be obtain from REDIRECT_URI link.
 - USER_EMAIL = Email of Sender
 
-
-
 ## Using Script
 
-*Importing File:*
+_Importing File:_
 
-```import sendMail from './mailer.js'```
+`import sendMail from './mailer.js'`
 
-*Working with script*
+_Working with script_
 
-```sendMail({from,to, subject, text, html})```
+`sendMail({from,to, subject, text, html})`
 
 ```
-from: Show the sender info to Reciepent, like: Anil Oli ****<aniloli42@gmail.ocm>"
+from: Show the sender info to Reciepent, like: Anil Oli ****<aniloli42@gmail.com>"
 to: mail to sent email address
 subject: Email Subject
 text: Plain text of Message if html version not supported.
